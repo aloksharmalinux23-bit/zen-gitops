@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1345" height="725" viewBox="0 0 1345 725">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs>
+<marker id="ah-e67700" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" markerUnits="strokeWidth">
+  <polygon points="0 0, 10 3.5, 0 7" fill="#e67700"/>
+</marker>
+<marker id="ah-2f9e44" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" markerUnits="strokeWidth">
+  <polygon points="0 0, 10 3.5, 0 7" fill="#2f9e44"/>
+</marker>
+<marker id="ah-1e1e1e" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" markerUnits="strokeWidth">
+  <polygon points="0 0, 10 3.5, 0 7" fill="#1e1e1e"/>
+</marker>
+<marker id="ah-6741d9" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" markerUnits="strokeWidth">
+  <polygon points="0 0, 10 3.5, 0 7" fill="#6741d9"/>
+</marker>
+</defs>
+<g transform="translate(0.0 35.0)">
+<rect x="50" y="80" width="120" height="55" rx="8" ry="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2" opacity="1.00" />
+<rect x="240" y="80" width="190" height="55" rx="8" ry="8" fill="#d0ebff" stroke="#1971c2" stroke-width="2" opacity="1.00" />
+<rect x="500" y="80" width="160" height="55" rx="8" ry="8" fill="#fff3bf" stroke="#e67700" stroke-width="2" opacity="1.00" />
+<rect x="730" y="80" width="140" height="55" rx="8" ry="8" fill="#ffd8a8" stroke="#d9480f" stroke-width="2" opacity="1.00" />
+<rect x="240" y="210" width="190" height="55" rx="8" ry="8" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2" opacity="1.00" />
+<rect x="500" y="210" width="140" height="55" rx="8" ry="8" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2" opacity="1.00" />
+<rect x="80" y="340" width="900" height="300" rx="8" ry="8" fill="#f8f9fa" stroke="#495057" stroke-width="2" opacity="1.00" stroke-dasharray="12,6"/>
+<rect x="110" y="390" width="200" height="85" rx="8" ry="8" fill="#e3fafc" stroke="#0c8599" stroke-width="2" opacity="1.00" />
+<rect x="380" y="390" width="200" height="85" rx="8" ry="8" fill="#e3fafc" stroke="#0c8599" stroke-width="2" opacity="1.00" />
+<rect x="650" y="390" width="200" height="85" rx="8" ry="8" fill="#e3fafc" stroke="#0c8599" stroke-width="2" opacity="1.00" />
+<rect x="150" y="510" width="210" height="60" rx="8" ry="8" fill="#dee2e6" stroke="#495057" stroke-width="2" opacity="1.00" />
+<rect x="450" y="510" width="220" height="60" rx="8" ry="8" fill="#dee2e6" stroke="#495057" stroke-width="2" opacity="1.00" />
+<rect x="730" y="510" width="210" height="60" rx="8" ry="8" fill="#dee2e6" stroke="#495057" stroke-width="2" opacity="1.00" />
+<rect x="1045" y="395" width="250" height="205" rx="8" ry="8" fill="#fff9db" stroke="#e67700" stroke-width="2" opacity="0.80" stroke-dasharray="12,6"/>
+<rect x="1065" y="420" width="210" height="60" rx="8" ry="8" fill="#ffe8cc" stroke="#e67700" stroke-width="2" opacity="1.00" />
+<rect x="1065" y="520" width="210" height="60" rx="8" ry="8" fill="#ffe8cc" stroke="#e67700" stroke-width="2" opacity="1.00" />
+<rect x="1095" y="80" width="130" height="55" rx="8" ry="8" fill="#e5dbff" stroke="#6741d9" stroke-width="2" opacity="1.00" />
+<rect x="1075" y="210" width="170" height="55" rx="8" ry="8" fill="#ffd8a8" stroke="#d9480f" stroke-width="2" opacity="1.00" />
+<path d="M 170.0 107.0 L 240.0 107.0" fill="none" stroke="#1e1e1e" stroke-width="2" opacity="1.00"  marker-end="url(#ah-1e1e1e)"/>
+<path d="M 430.0 107.0 L 500.0 107.0" fill="none" stroke="#1e1e1e" stroke-width="2" opacity="1.00"  marker-end="url(#ah-1e1e1e)"/>
+<path d="M 660.0 107.0 L 730.0 107.0" fill="none" stroke="#1e1e1e" stroke-width="2" opacity="1.00"  marker-end="url(#ah-1e1e1e)"/>
+<path d="M 580.0 135.0 L 335.0 210.0" fill="none" stroke="#2f9e44" stroke-width="2" opacity="1.00"  marker-end="url(#ah-2f9e44)"/>
+<path d="M 430.0 237.0 L 500.0 237.0" fill="none" stroke="#2f9e44" stroke-width="2" opacity="1.00"  marker-end="url(#ah-2f9e44)"/>
+<path d="M 570.0 265.0 L 530.0 340.0" fill="none" stroke="#2f9e44" stroke-width="2" opacity="1.00"  marker-end="url(#ah-2f9e44)"/>
+<path d="M 1160.0 135.0 L 1160.0 210.0" fill="none" stroke="#6741d9" stroke-width="2" opacity="1.00"  marker-end="url(#ah-6741d9)"/>
+<path d="M 1075.0 240.0 L 360.0 540.0" fill="none" stroke="#6741d9" stroke-width="2" opacity="1.00"  marker-end="url(#ah-6741d9)"/>
+<path d="M 1065.0 450.0 L 670.0 550.0" fill="none" stroke="#e67700" stroke-width="2" opacity="1.00"  marker-end="url(#ah-e67700)"/>
+<path d="M 500.0 510.0 L 280.0 475.0" fill="none" stroke="#e67700" stroke-width="2" opacity="1.00" stroke-dasharray="10,6" marker-end="url(#ah-e67700)"/>
+<path d="M 560.0 510.0 L 480.0 475.0" fill="none" stroke="#e67700" stroke-width="2" opacity="1.00" stroke-dasharray="10,6" marker-end="url(#ah-e67700)"/>
+<path d="M 660.0 510.0 L 750.0 475.0" fill="none" stroke="#e67700" stroke-width="2" opacity="1.00" stroke-dasharray="10,6" marker-end="url(#ah-e67700)"/>
+<path d="M 850.0 432.0 L 1065.0 550.0" fill="none" stroke="#e67700" stroke-width="2" opacity="1.00" stroke-dasharray="10,6" marker-end="url(#ah-e67700)"/>
+<text x="80.0" y="35.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="24" fill="#1e1e1e" text-anchor="start" opacity="1.00">Zen Pharma — Cloud Architecture</text>
+<text x="50.0" y="72.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#868e96" text-anchor="start" opacity="1.00">CI / Build Pipeline</text>
+<text x="50.0" y="202.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#868e96" text-anchor="start" opacity="1.00">GitOps</text>
+<text x="110.0" y="112.9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">Developer</text>
+<text x="335.0" y="103.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">GitHub</text>
+<text x="335.0" y="120.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">Backend + Frontend</text>
+<text x="580.0" y="103.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">GitHub</text>
+<text x="580.0" y="120.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">Actions CI</text>
+<text x="800.0" y="112.9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">AWS ECR</text>
+<text x="335.0" y="233.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">zen-gitops</text>
+<text x="335.0" y="250.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">(GitHub Repo)</text>
+<text x="570.0" y="242.9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">ArgoCD</text>
+<text x="100.0" y="358.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#495057" text-anchor="start" opacity="1.00">AWS EKS Cluster</text>
+<text x="210.0" y="428.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">dev namespace</text>
+<text x="210.0" y="445.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">9 microservices</text>
+<text x="480.0" y="428.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">qa namespace</text>
+<text x="480.0" y="445.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">9 microservices</text>
+<text x="750.0" y="428.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">prod namespace</text>
+<text x="750.0" y="445.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">9 microservices</text>
+<text x="255.0" y="535.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">NGINX Ingress</text>
+<text x="255.0" y="552.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">Controller</text>
+<text x="560.0" y="535.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">External Secrets</text>
+<text x="560.0" y="552.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">Operator (ESO)</text>
+<text x="835.0" y="535.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">Prometheus</text>
+<text x="835.0" y="552.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">+ Grafana</text>
+<text x="1058.0" y="412.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#e67700" text-anchor="start" opacity="1.00">AWS Managed Services</text>
+<text x="1170.0" y="445.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">AWS Secrets</text>
+<text x="1170.0" y="462.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">Manager</text>
+<text x="1170.0" y="545.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">AWS RDS</text>
+<text x="1170.0" y="562.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">PostgreSQL</text>
+<text x="1160.0" y="104.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">Users /</text>
+<text x="1160.0" y="121.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">Browser</text>
+<text x="1160.0" y="234.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">AWS ALB</text>
+<text x="1160.0" y="251.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1e1e1e" text-anchor="middle" opacity="1.00">(Load Balancer)</text>
+<text x="715.0" y="96.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#495057" text-anchor="middle" opacity="1.00">push image</text>
+<text x="440.0" y="167.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2f9e44" text-anchor="middle" opacity="1.00">update</text>
+<text x="440.0" y="181.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2f9e44" text-anchor="middle" opacity="1.00">image tag</text>
+<text x="466.0" y="228.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2f9e44" text-anchor="middle" opacity="1.00">watches</text>
+<text x="565.0" y="297.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2f9e44" text-anchor="middle" opacity="1.00">sync</text>
+<text x="822.5" y="327.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6741d9" text-anchor="middle" opacity="1.00">routes</text>
+<text x="822.5" y="341.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6741d9" text-anchor="middle" opacity="1.00">traffic</text>
+<text x="890.0" y="469.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#e67700" text-anchor="middle" opacity="1.00">fetch secrets</text>
+<text x="890.0" y="483.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#e67700" text-anchor="middle" opacity="1.00">(IRSA)</text>
+<text x="362.5" y="497.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#e67700" text-anchor="middle" opacity="1.00">inject K8s Secrets</text>
+<text x="965.0" y="464.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#e67700" text-anchor="middle" opacity="1.00">PostgreSQL</text>
+<text x="965.0" y="478.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#e67700" text-anchor="middle" opacity="1.00">(all envs)</text>
+</g>
+</svg>
