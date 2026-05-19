@@ -827,23 +827,20 @@ external-secrets-webhook-xxx                       1/1     Running   0
 
 ---
 
-## Step 3 — Run the Setup Script
+## Step 3 — Apply the Manifests From Git
 
-The script at `zen-infra/scripts/03-setup-external-secrets.sh` does four things in order:
-1. Annotates the ESO service account with your IRSA role ARN
-2. Creates the `ClusterSecretStore` pointing to AWS Secrets Manager
-3. Creates `ExternalSecret` resources for `db-credentials` and `jwt-secret` in the target namespace
-4. Polls until both secrets are confirmed synced
+The `ClusterSecretStore` and `ExternalSecret` resources are **already committed** to this repo under `k8s/external-secrets/`. These are safe to store in Git — they contain only AWS Secrets Manager path references, never actual secret values. This is the correct GitOps pattern.
 
-Run it from the **zen-infra** directory:
+**3a. IRSA annotation (imperative — cannot be a static manifest)**
+
+Before applying the manifests, the ESO service account must be annotated with the IAM role ARN so EKS can inject AWS credentials. Run the setup script for this step:
 
 ```bash
 cd /path/to/zen-infra
 bash scripts/03-setup-external-secrets.sh
 ```
 
-The script will prompt you for four values:
-
+The script prompts for four values:
 ```
 1. Target environment    → dev  (or qa / prod)
 2. AWS region            → us-east-1
@@ -851,20 +848,31 @@ The script will prompt you for four values:
 4. ESO IAM role name     → pharma-dev-eso-role  (press Enter for default)
 ```
 
-**What IRSA means (the script explains this too):** IRSA lets a Kubernetes ServiceAccount assume an AWS IAM role. The ESO pod exchanges its ServiceAccount JWT token for short-lived AWS credentials via EKS's OIDC provider. No passwords or access keys are stored anywhere in the cluster.
+You only need the IRSA annotation step from this script — the ClusterSecretStore and ExternalSecret resources will come from Git in the next step. The script also creates them, but the Git-committed versions are the source of truth.
 
-Successful output ends with:
-```
-OK  Both secrets synced successfully into namespace 'dev'.
-OK  External Secrets setup complete.
-```
+**What IRSA means:** IRSA lets a Kubernetes ServiceAccount assume an AWS IAM role. The ESO pod exchanges its ServiceAccount JWT for short-lived AWS credentials via EKS's OIDC provider. No passwords or access keys are stored anywhere in the cluster.
 
-Repeat for each environment you deployed:
+**3b. Apply the manifests from Git**
+
 ```bash
-# Run once per environment — the script prompts for which one
-bash scripts/03-setup-external-secrets.sh   # choose qa
-bash scripts/03-setup-external-secrets.sh   # choose prod
+# Apply the ClusterSecretStore (cluster-scoped, no namespace needed)
+kubectl apply -f k8s/external-secrets/cluster-secret-store.yaml
+
+# Apply ExternalSecrets for each environment
+kubectl apply -f k8s/external-secrets/dev-external-secrets.yaml
+kubectl apply -f k8s/external-secrets/qa-external-secrets.yaml
+kubectl apply -f k8s/external-secrets/prod-external-secrets.yaml
 ```
+
+Verify the resources were created:
+```bash
+kubectl get clustersecretstore
+kubectl get externalsecret -n dev
+kubectl get externalsecret -n qa
+kubectl get externalsecret -n prod
+```
+
+> **Why apply from Git instead of just using the script?** The script creates these resources imperatively — they only exist in the cluster. If the cluster is rebuilt, the script must be re-run manually. With the manifests in Git, ArgoCD (or a simple `kubectl apply`) can recreate the entire secret-sync configuration from source control, no script required.
 
 ---
 
